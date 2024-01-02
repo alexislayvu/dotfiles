@@ -1,0 +1,12 @@
+{
+  "~/python/intel_2021_1": {
+    "name": "Intel Course 2021",
+    "description": "Simple python project",
+    "file_name": "POO/main.py"
+  },
+  "~/cpp/example": {
+    "name": "ExampleCpp",
+    "description": "Project with make file",
+    "command": "make build && cd build/ && ./compiled_file"
+  }
+}
