@@ -121,3 +121,9 @@ eval "$(pyenv init --path)"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+if [[ "$(uname)" == "Darwin" ]]; then
+    alias google='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+elif [[ "$(uname)" == "Linux" ]]; then
+    alias google='/mnt/c/Program\ Files/Google/Chrome/Application/chrome.exe'
+fi
