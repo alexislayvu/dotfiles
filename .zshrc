@@ -106,6 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias alac="cd ~/.config/alacritty/"
 alias cdd="cd ~/Desktop/"
 alias cdnv="cd ~/.config/nvim/"
 alias config="/usr/bin/git --git-dir=$HOME --work-tree=$HOME"
@@ -113,7 +114,9 @@ alias csuf="cd ~/Desktop/repos/CSUF/"
 alias la="ls -a"
 alias python="python3"
 
+export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
+eval "$(pyenv virtualenv-init -)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
