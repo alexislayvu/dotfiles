@@ -10,43 +10,46 @@ bold_italic = { style = "Bold Italic" }
 size = 11.0
 
 
-# Kanagawa Alacritty Colors
-[colors]
+# TokyoNight Alacritty Colors
+# Default colors
 [colors.primary]
-background = '0x1f1f28'
-foreground = '0xdcd7ba'
+background = '#222436'
+foreground = '#c8d3f5'
 
+#[colors.cursor]
+# cursor = '#c8d3f5'
+# text = '#222436'
+
+# Normal colors
 [colors.normal]
-black = '0x090618'
-red = '0xc34043'
-green = '0x76946a'
-yellow = '0xc0a36e'
-blue = '0x7e9cd8'
-magenta = '0x957fb8'
-cyan = '0x6a9589'
-white = '0xc8c093'
+black = '#1b1d2b'
+red = '#ff757f'
+green = '#c3e88d'
+yellow = '#ffc777'
+blue = '#82aaff'
+magenta = '#c099ff'
+cyan = '#86e1fc'
+white = '#828bb8'
 
+# Bright colors
 [colors.bright]
-black = '0x727169'
-red = '0xe82424'
-green = '0x98bb6c'
-yellow = '0xe6c384'
-blue = '0x7fb4ca'
-magenta = '0x938aa9'
-cyan = '0x7aa89f'
-white = '0xdcd7ba'
+black = '#444a73'
+red = '#ff757f'
+green = '#c3e88d'
+yellow = '#ffc777'
+blue = '#82aaff'
+magenta = '#c099ff'
+cyan = '#86e1fc'
+white = '#c8d3f5'
 
-[colors.selection]
-background = '0x2d4f67'
-foreground = '0xc8c093'
-
+# Indexed Colors
 [[colors.indexed_colors]]
 index = 16
-color = '0xffa066'
+color = '#ff966c'
 
 [[colors.indexed_colors]]
 index = 17
-color = '0xff5d62'
+color = '#c53b53'
 
 
 [cursor]
