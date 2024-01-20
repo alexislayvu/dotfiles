@@ -109,7 +109,7 @@ source $ZSH/oh-my-zsh.sh
 alias alac="cd ~/.config/alacritty/"
 alias cdd="cd ~/Desktop/"
 alias cdnv="cd ~/.config/nvim/"
-alias config="/usr/bin/git --git-dir=$HOME --work-tree=$HOME"
+alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 alias csuf="cd ~/Desktop/repos/CSUF/"
 alias la="ls -a"
 alias python="python3"
