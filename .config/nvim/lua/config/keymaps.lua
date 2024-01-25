@@ -6,5 +6,5 @@
 vim.keymap.set("n", "<C-q>", "<cmd>q<cr>")
 
 ----- VISUAL MODE -----
-vim.keymap.set("v", "<A-k>", "<cmd>m '<-2<cr>gv=gv", { desc = "Move line up" })
-vim.keymap.set("v", "<A-j>", "<cmd>m '>+1<cr>gv=gv", { desc = "Move line down" })
+vim.keymap.set("x", "<A-k>", ":m '<-2<CR>gv=gv", { silent = true, desc = "Move line(s) up" })
+vim.keymap.set("x", "<A-j>", ":m '>+1<CR>gv=gv", { silent = true, desc = "Move line(s) down" })
