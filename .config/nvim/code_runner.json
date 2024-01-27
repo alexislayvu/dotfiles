@@ -2,6 +2,7 @@
   "c": "cd $dir && clang $fileName -g -Wall -o $fileNameWithoutExt && $dir/$fileNameWithoutExt",
   "cpp": "cd $dir && clang++ $fileName -g -o $fileNameWithoutExt && $dir/$fileNameWithoutExt",
   "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+  "javascript": "node",
   "python": "python3 -u",
   "typescript": "deno run",
   "rust": "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt"
