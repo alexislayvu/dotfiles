@@ -1,9 +1,19 @@
+-- return {
+--   { "rebelot/kanagawa.nvim" },
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "tokyonight-moon",
+--     },
+--   },
+-- }
 return {
-  { "rebelot/kanagawa.nvim" },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "tokyonight-moon",
+  "tokyonight.nvim",
+  opts = {
+    transparent = true,
+    styles = {
+      sidebars = "transparent",
+      floats = "transparent",
     },
   },
 }
