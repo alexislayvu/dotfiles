@@ -128,5 +128,5 @@ export NVM_DIR="$HOME/.nvm"
 if [[ "$(uname)" == "Darwin" ]]; then
     alias google='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 elif [[ "$(uname)" == "Linux" ]]; then
-    alias google='/mnt/c/Program\ Files/Google/Chrome/Application/chrome.exe'
+    alias google='/usr/bin/google-chrome-stable'
 fi
